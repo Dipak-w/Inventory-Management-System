@@ -4,10 +4,10 @@ Java Spring Boot project named **Inventory Management System**
 
 A secure, RESTful Inventory Management backend built with **Spring Boot**, **JWT authentication**, **role-based access**, and **OWASP Top 10** best practices. Designed as a capstone project to demonstrate scalable architecture, secure coding, and collaborative development.
 
-![Java](https://img.shields.io/badge/Java-17-blue.svg)
+![Java](https://img.shields.io/badge/Java-21-blue.svg)
 ![Spring Boot](https://img.shields.io/badge/SpringBoot-3.3.2-brightgreen.svg)
 ![Build](https://github.com/Dipak-w/inventory-management-system/actions/workflows/ci.yml/badge.svg)
-![License](https://img.shields.io/github/license/Dipak-w/inventory-management-system)
+
 
 ---
 
