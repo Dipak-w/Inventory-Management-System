@@ -1,0 +1,16 @@
+jwt:
+  # read from environment variable JWT_SECRET; fallback only for dev
+  secret: ${JWT_SECRET:ChangeThisInDevPleaseReplacejsahfjdfjhdjshfjdjjdhfjdhfjhfdjhjd}
+  expiration-ms: 3600000
+
+spring:
+  datasource:
+    # dev in-memory DB — good for local dev
+    url: jdbc:h2:mem:imsdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
